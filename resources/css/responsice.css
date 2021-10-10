@@ -1,0 +1,41 @@
+@media screen and (max-width: 1024px) {
+   
+    header .main-nav{
+        display: none;
+    }
+    .hero-text-box{
+        width: 80%;
+    }
+    html{
+        font-size: 57.5%;
+    }
+  
+}
+@media screen and (max-width: 480px) {
+    span_1_of_4{
+        width: 100%;
+    }
+    header{
+        /* height: 80vh; */
+    }
+    h1{
+        font-size: 3rem;
+    }
+    h2{
+        font-size: 2.5rem;
+    }
+    h3{
+        font-size: 2rem;
+    }
+    p{
+        width: 99%;
+    }
+    .hero-text-box{
+        width: 100%;
+        line-height: 1;
+        font-size: 2rem;
+    }
+    .team p{
+        width: 98%;
+    }
+}
